@@ -23,8 +23,8 @@ source ~/.bashrc
 In the workspace dir create the following folders and clone this repository
 
 ```
-mkdir -p /src/github.com/brammittendorff
-cd /src/github.com/brammittendorff
+mkdir -p $GOPATH/src/github.com/brammittendorff
+cd $GOPATH/src/github.com/brammittendorff
 git clone git@github.com:brammittendorff/betterkismet.git
 cd betterkismet
 ```
